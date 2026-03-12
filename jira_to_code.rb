@@ -1,4 +1,4 @@
-class MyScripts < Formula
+class JiraToCode < Formula
   desc "jira_to_code.sh is the main script which connects to jira cli,asks user for the code repository, branch, ai agent to be used and then redirects it to either codex.sh or cursor.sh . Codex.sh connected to codex cli , cursor.sh connects to cursor cli"
   homepage "https://github.com/imaresss/jira_to_code"
   # The URL you copied from your GitHub release
