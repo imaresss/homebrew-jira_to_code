@@ -11,8 +11,8 @@ class JiraToCode < Formula
     # This installs the scripts into the Homebrew binary directory.
     # The right side of the hash allows you to drop the '.sh' extension for the user.
     bin.install "jira_to_code" => "jira_to_code"
-    bin.install "cursor.sh" => "cursor"
-    bin.install "codex.sh" => "codex"
+    bin.install "cursor.sh"
+    bin.install "codex.sh"
   end
 
   test do
